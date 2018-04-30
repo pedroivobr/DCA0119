@@ -7,6 +7,7 @@ volatile uint8_t overflow_cont;
 volatile uint8_t cor;
 //unsigned char
 ISR(TIMER1_OVF_vect){
+  
   overflow_cont++;
   //Serial.println(OCR0A);
   if(overflow_cont < 41){
@@ -24,7 +25,7 @@ ISR(TIMER1_OVF_vect){
   else if(255 > overflow_cont && overflow_cont > 120){
     OCR0A = 0;
   }
-  
+  Serial.println(OCR0A);
 }
 
 int main(void)
@@ -55,7 +56,7 @@ int main(void)
   sei();      
     while (1) 
     {
-      Serial.println(OCR0A);
+      
       if(overflow_cont < 41){
         PORTB &= 0x00;
         PORTB |= 0b00100000;

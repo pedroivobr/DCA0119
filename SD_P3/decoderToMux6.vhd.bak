@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+
+entity decoderToMux6 is
+	port(
+		entrada : in std_logic_vector (5 downto 0);
+		saida : out std_logic_vector(2 downto 0)
+	);
+end decoderToMux6;
+
+
+architecture resultado of decoderToMux6 is
+begin
+	saida <= "000" when (entrada = "100000") else
+				"001" when (entrada = "010000") else
+				"010" when (entrada = "001000") else
+				"011" when (entrada = "000100") else
+				"100" when (entrada = "000010") else
+				"101" when (entrada = "000001");
+end resultado;

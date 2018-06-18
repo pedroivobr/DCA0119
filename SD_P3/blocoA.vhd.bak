@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;	
+
+entity of blocoA is
+	generic (n : integer := 0);
+	port(
+		load : in std_logic;
+		t : in std_logic_vector(n-1 downto 0);
+		resultado : out std_logic_vector(n-1 downto 0)
+		);
+end blocoA;

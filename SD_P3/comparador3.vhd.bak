@@ -1,0 +1,10 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;	
+use ieee.std_logic_vector.all;
+
+entity comparador3 is
+
+
+
+end comparador3;

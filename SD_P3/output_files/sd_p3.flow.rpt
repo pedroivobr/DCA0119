@@ -1,0 +1,288 @@
+Flow report for sd_p3
+Mon Jun 18 06:32:25 2018
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Mon Jun 18 06:32:25 2018           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; sd_p3                                           ;
+; Top-level Entity Name              ; main                                            ;
+; Family                             ; Cyclone II                                      ;
+; Device                             ; EP2C5T144C8                                     ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 3,214                                           ;
+;     Total combinational functions  ; 2,538                                           ;
+;     Dedicated logic registers      ; 2,275                                           ;
+; Total registers                    ; 2275                                            ;
+; Total pins                         ; 25                                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 1,454                                           ;
+; Embedded Multiplier 9-bit elements ; 49                                              ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 06/18/2018 06:31:59 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; sd_p3               ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                           ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 145667773409408.152931431904456       ; --            ; --          ; --             ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                                    ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                           ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)             ; <None>        ; --          ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                  ; --            ; --          ; eda_simulation ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; ALTFP_CONVERT                         ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; ALTFP_MULT                            ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; ALTFP_CONVERT                         ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_MUX                               ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; ALTFP_CONVERT                         ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; ALTFP_CONVERT                         ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; ALTFP_CONVERT                         ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; ALTFP_MULT                            ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; ALTFP_ADD_SUB                         ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; ALTFP_CONVERT                         ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_ADD_SUB                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant1.bsf                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant1.cmp                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert0.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert0_inst.vhd               ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert0.inc                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert0.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_mult0.bsf                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_mult0_inst.vhd                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_mult0.inc                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_mult0.cmp                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert1.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert1_inst.vhd               ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert1.inc                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert1.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant0.bsf                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant0.cmp                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant4.bsf                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant4.cmp                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant5.bsf                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant5.cmp                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_mux0.bsf                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_mux0.cmp                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_compare0.bsf                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_compare0.cmp                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant6.bsf                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant6.cmp                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant7.bsf                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant7.cmp                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant8.bsf                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant8.cmp                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant9.bsf                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant9.cmp                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant10.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant10.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant11.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant11.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant12.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant12.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant13.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant13.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant14.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant14.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant15.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant15.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant16.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant16.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant17.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant17.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant18.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant18.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert2.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert2_inst.vhd               ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert2.inc                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert2.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert3.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert3_inst.vhd               ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert3.inc                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert3.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert4.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert4_inst.vhd               ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert4.inc                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert4.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_mult1.bsf                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_mult1_inst.vhd                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_mult1.inc                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_mult1.cmp                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_add_sub0.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_add_sub0.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert5.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert5_inst.vhd               ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert5.inc                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; altfp_convert5.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_counter1m.bsf                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_counter1m.cmp                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_compare1m.bsf                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_compare1m.cmp                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_counterpwm.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_counterpwm.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_comparepwm.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_comparepwm.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_counterdivcurva.bsf               ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_counterdivcurva.cmp               ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_comparedivcurva.bsf               ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_comparedivcurva.cmp               ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_countercurva.bsf                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_countercurva.cmp                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_add_sub0.bsf                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_add_sub0.cmp                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_compare30s.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_compare30s.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_compareoff.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_compareoff.cmp                    ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                              ; --            ; main        ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; main        ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; main        ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                    ; main                                  ; sd_p3         ; --          ; --             ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:21     ; 1.0                     ; 4755 MB             ; 00:00:20                           ;
+; Total                ; 00:00:21     ; --                      ; --                  ; 00:00:20                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------+
+; Flow OS Summary                                                                   ;
++----------------------+------------------+-----------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++----------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis ; GAUSS            ; Windows 7 ; 6.2        ; x86_64         ;
++----------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off sd_p3 -c sd_p3
+
+
+
